@@ -1,0 +1,57 @@
+> python3 fetch_fresh.py --limit 250 --target 45 --out data/fresh.jsonl
+2026 in science                            44 фактов
+2026 in spaceflight                        24 фактов
+2026 in technology and computing            5 фактов
+2026 in paleontology                        0 фактов
+2026 in archaeology                         3 фактов
+2026 in climate change                    102 фактов
+2026 in biology                             0 фактов
+2026 in medicine                            0 фактов
+кандидатов на генерацию: 178
+вопросов, прошедших фильтры: 82
+  agent+ | In technology and computing, what did Microsoft CEO Satya Nadella urge consumers to stop c -> "Slop" | sonnet: unknown
+  agent- | In science, what research did Google Quantum AI publish on October 15, 2026, demonstrating -> "magic state cultivation" | sonnet: unknown
+  agent+ | In science, which country showed resilience across the widest range of scenarios according -> Australia | sonnet: unknown
+  agent+ | In climate change, what percentage slowdown of the Atlantic meridional overturning circula -> 51±8% | sonnet: unknown
+  agent- | In climate change, what annual fish biomass decline percentage was associated with long-te -> up to 19.8% | sonnet: unknown
+  agent- | In science, what date in February 2026 did researchers in Switzerland report on centenaria -> 24 February | sonnet: unknown
+  agent- | In spaceflight, what was launched by ISRO on 3 September 2026? -> EOS-05 | sonnet: unknown
+  agent+ | In science, how many new confirmed exoplanets were reported by astronomers on 3 May 2026? -> 118 | sonnet: unknown
+  agent+ | In climate change, how many participants were surveyed in the January 8, 2026 report publi -> 70,337 | sonnet: unknown
+  agent- | In climate change, what depth of 'deep carbon' was considered in the June 12, 2026 study? -> 3 metres | sonnet: unknown
+  agent+ | In science, what is the rotation time of the asteroid 2025 MN45 reported on January 7, 202 -> 1.88 minutes | sonnet: unknown
+  agent+ | How many non-accidental deaths were prevented in China due to electric vehicle adoption in -> 262,000 | sonnet: unknown
+  agent+ | What was the name of the first crewed spaceflight launched by NASA in February 2026? -> Crew-12 | sonnet: unknown
+  agent+ | What exoplanet's atmosphere was confirmed by astronomers in July 2026? -> LHS 1140 b | sonnet: unknown
+  agent+ | What type of events escalates disproportionately with increasing CO2 emissions according t -> compound events | sonnet: unknown
+  agent+ | What is the distance of HD 137010 b from Earth in light years? -> 146 light years | sonnet: Approximately 98.4 light-years from Eart
+  agent+ | What is the orbital period of S301 around Sagittarius A*? -> 8.7 years | sonnet: unknown
+  agent- | On what date was Ubisoft Halifax closed? -> January 8 | sonnet: March 2013
+  agent+ | What was the molecular age of blood cells from the 80-year-old donor after conversion? -> less than 20 years | sonnet: unknown
+  agent- | How many heat-related excess deaths were estimated across European cities during the summe -> 50,391 | sonnet: Approximately 61,672 heat-related excess
+  agent+ | What breakthrough did physicists at Northwestern University demonstrate on October 21? -> first one-positron quantum cyclotron | sonnet: unknown
+  agent+ | What study published on March 4, 2026, concluded that sea level measurements have underest -> Nature | sonnet: unknown
+  agent- | What event took place at the Mandalay Bay Convention Centre in Las Vegas, Nevada, from Apr -> Google Cloud Next 2026 | sonnet: unknown
+  agent- | What percentage increase in compound drought-heatwave events was reported in a study publi -> 13.1% | sonnet: unknown
+  agent- | What drug was reported to show promise against lung cancer in September 2026? -> daraxonrasib | sonnet: unknown
+  agent+ | What monosaccharide was detected in the interstellar molecular cloud in July 2026? -> erythrulose | sonnet: unknown
+  agent- | How many all-cause deaths per year in the contiguous United States were attributed to wild -> ~24,100 | sonnet: unknown
+  agent+ | What was the name of China's first crewed spaceflight of the year launched on 24 May 2026? -> Shenzhou 23 | sonnet: unknown
+  agent- | What did Ember's Global Electricity Review 2026 report about clean power growth in 2025? -> renewables overtook coal power | sonnet: unknown
+  agent- | What project did AES Andes abandon on 24 January 2026 due to its impact on astronomical ob -> INNA project | sonnet: unknown
+  agent+ | What is the largest interstellar organosulfur molecule identified in January 2026? -> 2.5-cyclohexadiene-1-thione | sonnet: unknown
+  agent- | What was the largest source of energy supply growth reported in June 2026? -> renewables | sonnet: unknown
+  agent- | What was the estimated direct radiative forcing from airborne microplastics in May 2026? -> ~1.34 W/m2 | sonnet: unknown
+  agent- | Who was awarded the Nobel Prize in Physics on 6 October 2026? -> Francis Halzen | sonnet: unknown
+  agent- | Where did the UN climate conference take place in June 2026? -> Bonn, Germany | sonnet: unknown
+  agent+ | What is the name of India's first commercially built rocket launched on 18 July 2026? -> Vikram 1 | sonnet: unknown
+  agent- | What was the rate of increase of global warming reported in March 2026? -> 0.35 °C per decade | sonnet: unknown
+  agent- | What is the estimated additional warming by 2100 due to warming-induced emissions reported -> 0.2 °C–0.4 °C | sonnet: unknown
+  agent+ | What small space telescope did NASA launch on 11 January 2026? -> Pandora | sonnet: unknown
+  agent- | What percentage of emissions do battery electric vehicles save compared to internal combus -> 40%–60% | sonnet: unknown
+  agent- | What model did researchers at Google DeepMind publish a study on in January 2026? -> AlphaGenome | sonnet: unknown
+  agent+ | What regime shift is suggested to be occurring in the Arctic Ocean as of May 2026? -> Arctic Ocean regime shift | sonnet: unknown
+  agent- | How many exoplanet candidates were reported by astronomers in April 2026? -> 11,554 | sonnet: unknown
+  agent- | In science, what date in May 2026 reported strong evidence for subsurface water ice near t -> 6 May | sonnet: unknown
+  agent- | In spaceflight, what date in April 2026 did Artemis II become the farthest human spaceflig -> 6 April | sonnet: unknown
+Sonnet без инструментов ошибся на 45 из 82; в /home/ruslanlichnovsky/postupashki/ai-agents/homeworks/hw1/data/fresh.jsonl теперь 45 вопросов; потрачено $0.127
