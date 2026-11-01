@@ -1,0 +1,99 @@
+{
+ "task": {
+  "id": "fresh-35",
+  "source": "fresh",
+  "question": "What is the name of India's first commercially built rocket launched on 18 July 2026?",
+  "answer": "Vikram 1",
+  "evidence": "On 18 July, Skyroot Aerospace launched Vikram 1, India's first commercially built rocket, with a successful flight carrying multiple payloads to Low Earth Orbit.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "India's first commercially built rocket launched on 18 July 2026 is called Vikram 1. \n\nFINAL: Vikram 1",
+ "correct": true,
+ "cost": 0.00039765000000002715,
+ "error": "",
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2026 года. Никогда не отвечай по памяти — только через инструменты. Стратегия: 1. Вызови web_search, чтобы найти нужную статью. Он возвращает вступление и список других статей. 2. Если во вступлении нет нужного факта (даты, имени, числа), ищи в результатах обзорные статьи типа '2026 in spaceflight', '2026 in science', '2026 in climate change'. 3. Вызови page_find с названием обзорной статьи и ключевыми словами из вопроса, чтобы прочитать полный текст и найти нужный факт. 4. Не делай одинаковых вызовов с похожими аргументами. Когда ответ готов, напиши его последней строкой в формате FINAL: <короткий ответ>. Для числовых ответов пиши только число, для фактов — короткую фразу до 10 слов."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of India's first commercially built rocket launched on 18 July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_wt248LQnRgSqCj07Ua1faIq9",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"India first commercially built rocket launched on 18 July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_wt248LQnRgSqCj07Ua1faIq9",
+   "content": "[Timeline of the 2026 Lebanon war] This timeline of the 2026 Lebanon war covers the period from 2 March 2026, when Hezbollah fired projectiles towards Israel from Lebanon following the start of the 2026 Iran war, to the present. | other articles: Reusable launch vehicle, List of rocket launch sites"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_EzZXHLqiqhv9pt7X5FINAPRF",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 in spaceflight\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_EzZXHLqiqhv9pt7X5FINAPRF",
+   "content": "[2026 in spaceflight] Notable spaceflight events during the year 2026. | other articles: List of spaceflight launches in October–December 2026, List of spaceflight launches in July–September 2026"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ykh2y6NCuIU8G7IiFU38Bhpp",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in spaceflight\",\"keywords\":\"India first commercially built rocket July 18\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ykh2y6NCuIU8G7IiFU38Bhpp",
+   "content": "On 11 July, JAXA conducted the first VTVL flight test of its RV-X small reusable rocket demonstrator. The vehicle serves as a technology pathfinder for CALLISTO, a larger European-Japanese demonstrator rocket under development in collaboration between JAXA, CNES, and DLR. ESA plans first test flights of the Themis reusable rocket demonstrator in late 2026.\nOn 18 July, Skyroot Aerospace launched Vikram 1, India's first commercially built rocket, with a successful flight carrying multiple payloads to Low Earth Orbit.\nOn 12 January, the Spanish space capsule company Orbital Paradigm, supported by ESA's FLPP, launched its first technology demonstration mission. The KID capsule was expected to re-enter Earth atmosphere after reaching orbit on the PSLV-C62 flight. The Indian PSLV rocket failed in flight but KID separated from the falling launch vehicle and managed to transmit flight data during its non-nominal sub"
+  },
+  {
+   "role": "assistant",
+   "content": "India's first commercially built rocket launched on 18 July 2026 is called Vikram 1. \n\nFINAL: Vikram 1",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

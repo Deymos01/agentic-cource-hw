@@ -1,0 +1,33 @@
+{
+ "task": {
+  "id": "fresh-3",
+  "source": "fresh",
+  "question": "What percentage slowdown of the Atlantic meridional overturning circulation was estimated in a study published on April 15, 2026?",
+  "answer": "51±8%",
+  "evidence": "15 April: a study published in Science Advances estimated a slowdown of the Atlantic meridional overturning circulation (AMOC) of 51±8%—a weakening ~60% stronger than suggested by multimodel mean estimates.",
+  "page": "2026 in climate change",
+  "url": "https://en.wikipedia.org/wiki/2026_in_climate_change",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I will search for information regarding the Atlantic meridional overturning circulation slowdown estimated in a study published on April 15, 2026. \n\nLet's start with a web search.",
+ "correct": false,
+ "cost": 5.83499999999848e-05,
+ "error": "",
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2026 года. Никогда не отвечай по памяти — только через инструменты. Стратегия: 1. Вызови web_search, чтобы найти нужную статью. Он возвращает вступление и список других статей. 2. Если во вступлении нет нужного факта (даты, имени, числа), ищи в результатах обзорные статьи типа '2026 in spaceflight', '2026 in science', '2026 in climate change'. 3. Вызови page_find с названием обзорной статьи и ключевыми словами из вопроса, чтобы прочитать полный текст и найти нужный факт. 4. Не делай одинаковых вызовов с похожими аргументами. Когда ответ готов, напиши его последней строкой в формате FINAL: <короткий ответ>. Для числовых ответов пиши только число, для фактов — короткую фразу до 10 слов."
+  },
+  {
+   "role": "user",
+   "content": "What percentage slowdown of the Atlantic meridional overturning circulation was estimated in a study published on April 15, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I will search for information regarding the Atlantic meridional overturning circulation slowdown estimated in a study published on April 15, 2026. \n\nLet's start with a web search.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

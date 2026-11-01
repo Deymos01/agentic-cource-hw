@@ -1,0 +1,33 @@
+{
+ "task": {
+  "id": "fresh-44",
+  "source": "fresh",
+  "question": "What date in April 2026 did Artemis II become the farthest human spaceflight in history?",
+  "answer": "6 April",
+  "evidence": "On 1 April 2026, NASA launched the Artemis II mission on the Space Launch System, sending astronauts around the Moon on a ten-day lunar flyby. On 6 April, Artemis II became the farthest human spaceflight in history when it surpassed the previous distance record of Apollo 13. The mission's re-entry capsule Integrity safely splashed down in the Pacific Ocean southwest of San Diego on 11 April 2026.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I'll look up the relevant information for you. \n\nweb_search(\"Artemis II farthest human spaceflight April 2026\")",
+ "correct": false,
+ "cost": 5.1299999999976365e-05,
+ "error": "",
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2026 года. Никогда не отвечай по памяти — только через инструменты. Стратегия: 1. Вызови web_search, чтобы найти нужную статью. Он возвращает вступление и список других статей. 2. Если во вступлении нет нужного факта (даты, имени, числа), ищи в результатах обзорные статьи типа '2026 in spaceflight', '2026 in science', '2026 in climate change'. 3. Вызови page_find с названием обзорной статьи и ключевыми словами из вопроса, чтобы прочитать полный текст и найти нужный факт. 4. Не делай одинаковых вызовов с похожими аргументами. Когда ответ готов, напиши его последней строкой в формате FINAL: <короткий ответ>. Для числовых ответов пиши только число, для фактов — короткую фразу до 10 слов."
+  },
+  {
+   "role": "user",
+   "content": "What date in April 2026 did Artemis II become the farthest human spaceflight in history?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll look up the relevant information for you. \n\nweb_search(\"Artemis II farthest human spaceflight April 2026\")",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

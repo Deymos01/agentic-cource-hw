@@ -1,0 +1,18 @@
+{
+ "task": {
+  "id": "fresh-11",
+  "source": "fresh",
+  "question": "How many non-accidental deaths were prevented in China due to electric vehicle adoption in May 2026?",
+  "answer": "262,000",
+  "evidence": "13 May: a study published in Nature Health concluded that adoption in China of electric vehicles led to a reduction in airborne pollutants that prevented about 262,000 non-accidental deaths and 75,000 all-cause deaths.",
+  "page": "2026 in climate change",
+  "url": "https://en.wikipedia.org/wiki/2026_in_climate_change",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "ошибка: HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=120)",
+ "correct": false,
+ "cost": 0.0,
+ "error": "ReadTimeout: HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=120)",
+ "messages": []
+}

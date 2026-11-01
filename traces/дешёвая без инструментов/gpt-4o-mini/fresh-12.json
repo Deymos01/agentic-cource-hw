@@ -1,0 +1,33 @@
+{
+ "task": {
+  "id": "fresh-12",
+  "source": "fresh",
+  "question": "What was the name of the first crewed spaceflight launched by NASA in February 2026?",
+  "answer": "Crew-12",
+  "evidence": "On 13 February, NASA launched the first crewed spaceflight of the year, the Crew-12 mission carrying four NASA, ESA, and Roscosmos astronauts to ISS, returning the station to its normal crew complement of seven in a rare indirect handover caused by the early return of Crew-11. The second crewed flight of the year to ISS was Soyuz MS-29 launched on 14 July and the third was Crew-13 launched on 1 October.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I will search for the relevant information about the first crewed spaceflight launched by NASA in February 2026. \n\nLet's begin with a web search.",
+ "correct": false,
+ "cost": 5.369999999998987e-05,
+ "error": "",
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2026 года. Никогда не отвечай по памяти — только через инструменты. Стратегия: 1. Вызови web_search, чтобы найти нужную статью. Он возвращает вступление и список других статей. 2. Если во вступлении нет нужного факта (даты, имени, числа), ищи в результатах обзорные статьи типа '2026 in spaceflight', '2026 in science', '2026 in climate change'. 3. Вызови page_find с названием обзорной статьи и ключевыми словами из вопроса, чтобы прочитать полный текст и найти нужный факт. 4. Не делай одинаковых вызовов с похожими аргументами. Когда ответ готов, напиши его последней строкой в формате FINAL: <короткий ответ>. Для числовых ответов пиши только число, для фактов — короткую фразу до 10 слов."
+  },
+  {
+   "role": "user",
+   "content": "What was the name of the first crewed spaceflight launched by NASA in February 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I will search for the relevant information about the first crewed spaceflight launched by NASA in February 2026. \n\nLet's begin with a web search.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

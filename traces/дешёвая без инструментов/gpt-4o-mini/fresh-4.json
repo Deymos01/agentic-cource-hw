@@ -1,0 +1,33 @@
+{
+ "task": {
+  "id": "fresh-4",
+  "source": "fresh",
+  "question": "What annual fish biomass decline percentage was associated with long-term global warming in a study published on February 25, 2026?",
+  "answer": "up to 19.8%",
+  "evidence": "25 February: a study published in Nature Ecology & Evolution stated that long-term global warming was associated with an annual fish biomass decline of up to 19.8% between 1993 and 2021 in major Northern Hemisphere basins.",
+  "page": "2026 in climate change",
+  "url": "https://en.wikipedia.org/wiki/2026_in_climate_change",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "web_search(\"annual fish biomass decline percentage long-term global warming February 25, 2026\")",
+ "correct": false,
+ "cost": 4.799999999999249e-05,
+ "error": "",
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2026 года. Никогда не отвечай по памяти — только через инструменты. Стратегия: 1. Вызови web_search, чтобы найти нужную статью. Он возвращает вступление и список других статей. 2. Если во вступлении нет нужного факта (даты, имени, числа), ищи в результатах обзорные статьи типа '2026 in spaceflight', '2026 in science', '2026 in climate change'. 3. Вызови page_find с названием обзорной статьи и ключевыми словами из вопроса, чтобы прочитать полный текст и найти нужный факт. 4. Не делай одинаковых вызовов с похожими аргументами. Когда ответ готов, напиши его последней строкой в формате FINAL: <короткий ответ>. Для числовых ответов пиши только число, для фактов — короткую фразу до 10 слов."
+  },
+  {
+   "role": "user",
+   "content": "What annual fish biomass decline percentage was associated with long-term global warming in a study published on February 25, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "web_search(\"annual fish biomass decline percentage long-term global warming February 25, 2026\")",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

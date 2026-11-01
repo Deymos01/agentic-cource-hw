@@ -1,0 +1,18 @@
+{
+ "task": {
+  "id": "fresh-17",
+  "source": "fresh",
+  "question": "On what date was Ubisoft Halifax closed?",
+  "answer": "January 8",
+  "evidence": "January 8 – Ubisoft Halifax was closed by Ubisoft, this came a month after they formed Canada's first video game union",
+  "page": "2026 in technology and computing",
+  "url": "https://en.wikipedia.org/wiki/2026_in_technology_and_computing",
+  "sonnet_answer": "March 2013",
+  "agent_ok": false
+ },
+ "answer": "ошибка: HTTP [429]: {\"error\":{\"message\":\"Rate limit exceeded: new-account-rpm/anthropic/claude-4.5-haiku-20251001. Rate limit reached: new accounts are limited to 20 requests per minute for this model. Please retry shortly.\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1793564460000\"},\"limit_source\":\"openrouter_new_account\",\"remedy_hint\":\"New accounts are temporarily limited for this model. Please retry shortly.\",\"provider_name\":null,\"previous_errors\":[{\"code\":429,\"message\":\"Rate limit exceeded: new-account-rpm/anthropic/claude-4.5-haiku-20251001. Rate limit reached: new accounts are limited to 20 requests per minute for this model. Please retry shortly.\"},{\"code\":429,\"message\":\"Rate limit exceeded: new-account-rpm/anthropic/claude-4.5-haiku-20251001. Rate limit reached: new accounts are limited to 20 requests per minute for this model. Please retry shortly.\"},{\"code\":429,\"message\":\"Rate limit exceeded: new-account-rpm/anthropic/claude-4.5-haiku-20251001. Rate limit reached: new accounts are limited to 20 requests per minute for this model. Please retry shortly.\"}]}},\"user_id\":\"user_3LW8m5KIt0as6UKFffgFVNF9P7q\"}",
+ "correct": false,
+ "cost": 0.0,
+ "error": "RuntimeError: HTTP [429]: {\"error\":{\"message\":\"Rate limit exceeded: new-account-rpm/anthropic/claude-4.5-haiku-20251001. Rate limit reached: new accounts are limited to 20 requests per minute fo",
+ "messages": []
+}

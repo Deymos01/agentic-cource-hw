@@ -1,0 +1,165 @@
+{
+ "task": {
+  "id": "fresh-35",
+  "source": "fresh",
+  "question": "What is the name of India's first commercially built rocket launched on 18 July 2026?",
+  "answer": "Vikram 1",
+  "evidence": "On 18 July, Skyroot Aerospace launched Vikram 1, India's first commercially built rocket, with a successful flight carrying multiple payloads to Low Earth Orbit.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "India's first commercially built rocket launched on 18 July 2026 is named Vikram-1. \n\nFINAL: Vikram-1",
+ "correct": true,
+ "cost": 0.0007637999999999812,
+ "error": "",
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2026 года. Никогда не отвечай по памяти — только через инструменты. Стратегия: 1. Вызови web_search, чтобы найти нужную статью. Он возвращает вступление и список других статей. 2. Если во вступлении нет нужного факта (даты, имени, числа), ищи в результатах обзорные статьи типа '2026 in spaceflight', '2026 in science', '2026 in climate change'. 3. Вызови page_find с названием обзорной статьи и ключевыми словами из вопроса, чтобы прочитать полный текст и найти нужный факт. 4. Не делай одинаковых вызовов с похожими аргументами. Когда ответ готов, напиши его последней строкой в формате FINAL: <короткий ответ>. Для числовых ответов пиши только число, для фактов — короткую фразу до 10 слов."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of India's first commercially built rocket launched on 18 July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_pgGVAt6UV1GmZ0MF03emOJNQ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"India first commercially built rocket launched 18 July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_pgGVAt6UV1GmZ0MF03emOJNQ",
+   "content": "[Timeline of the 2026 Lebanon war] This timeline of the 2026 Lebanon war covers the period from 2 March 2026, when Hezbollah fired projectiles towards Israel from Lebanon following the start of the 2026 Iran war, to the present. | other articles: Skyroot Aerospace, List of PSLV launches"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CMhzp35Rzy56Nqu27Z98UTYH",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 in spaceflight\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CMhzp35Rzy56Nqu27Z98UTYH",
+   "content": "[2026 in spaceflight] Notable spaceflight events during the year 2026. | other articles: List of spaceflight launches in October–December 2026, List of spaceflight launches in July–September 2026"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_b4aX2mZVGIgKw76xnWT81WoF",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"India commercial rocket launch July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_b4aX2mZVGIgKw76xnWT81WoF",
+   "content": "[List of Satish Dhawan Space Centre launches] This page provides a list summary of the launches taken place in Satish Dhawan Space Centre. It is the main satellite launch centre for ISRO. It is located in Sriharikota, a coastal village in Tirupati district of Andhra Pradesh, 80 km (50 mi) north of Chennai. Originally called Sriharikota Range (SHAR), an acronym that ISRO has retained to the present day, the centre was renamed in 2002 after the death of ISRO's former chairman Satish Dhawan. | other articles: Space Launch System, List of LVM3 launches"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LbBqhRRkHU6DTS1X67kHGBxs",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 in spaceflight India first commercially built rocket\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LbBqhRRkHU6DTS1X67kHGBxs",
+   "content": "[2026 in spaceflight] Notable spaceflight events during the year 2026. | other articles: 2027 in spaceflight, History of spaceflight"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_nvQlyQft3MI49540QW7YoRHj",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Space Launch System India 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_nvQlyQft3MI49540QW7YoRHj",
+   "content": "[Space Launch System] The Space Launch System (SLS) is an American two-stage super heavy-lift expendable launch vehicle used by NASA. The primary launch vehicle for the Artemis program, SLS is designed to launch the four-person Orion spacecraft. The rocket first launched in November 2022, carrying the uncrewed Artemis I mission. Its only crewed launch has been for the Artemis II lunar flyby in April 2026, becoming the second launch vehicle to carry humans beyond low Earth orbit (LEO), after NASA's Saturn V of the Apollo program. Development of SLS began in 2011 as a congressionally mandated replacement for the retiring Space Shuttle program and the cancelled Ares I and Ares V launch vehicles of the Constellation program, incorporating some hardware from both programs. Costing US$31.6 billion as of 2025, the project has been criticized for mismanagement, budget overruns, and delays, but ultimately succeeded in human spaceflight in 2026. All SLS launches take place from Launch Complex 39B at the Kennedy Space Center in Florida. The new Boeing-built core stage is powered by four ex-Shuttle RS-25 engines. Attached to the core are two Northrop Grumman five-segment Solid Rocket Boosters, built for the Ares vehicles, tested on Ares I-X, developed from the Shuttle's four-segment SRB. SLS currently uses the Interim Cryogenic Propulsion Stage (ICPS) as its second stage, for the insertions to low Earth orbit and trans-lunar injection. ICPS uses the RL10 engine, and was derived from the Delta Cryogenic Second Stage designed by Japan's space agency. Aerojet Rocketdyne builds the RS-25 and RL10 engines. Starting from Artemis IV, SLS will use the Centaur V upper stage, developed for the Vulcan Centaur, instead of ICPS. NASA previously planned to upgrade SLS from its current Block 1 configuration to a Block 1B and Block 2, but cancelled these plans in February 2026, aiming to standardize on Block 1. Block 1B was to use the Exploration Upper Stage, and Block 2 would have used new so"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_EHNagVOCzowwJFhYPXMGXPbQ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Skyroot Aerospace 2026 launch\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_EHNagVOCzowwJFhYPXMGXPbQ",
+   "content": "[Skyroot Aerospace] Skyroot Aerospace Private Limited is an Indian private aerospace manufacturer and commercial launch service provider headquartered in Hyderabad, Telangana. The company was founded by two former ISRO scientists, Pawan Kumar Chandana, and Naga Bharath Daka. On 18 November 2022, Skyroot became the first private company in India to launch a suborbital rocket, Vikram-S. On 18 July 2026, Skyroot successfully launched India's first private orbital class rocket Vikram-1 into orbit, making India the third country with a private orbital launch capability after the U.S. and China. | other articles: List of Vikram launches, List of orbital launch systems"
+  },
+  {
+   "role": "assistant",
+   "content": "India's first commercially built rocket launched on 18 July 2026 is named Vikram-1. \n\nFINAL: Vikram-1",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

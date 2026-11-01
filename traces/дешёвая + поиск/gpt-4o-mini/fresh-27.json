@@ -1,0 +1,191 @@
+{
+ "task": {
+  "id": "fresh-27",
+  "source": "fresh",
+  "question": "What was the name of China's first crewed spaceflight of the year launched on 24 May 2026?",
+  "answer": "Shenzhou 23",
+  "evidence": "On 11 May, China launched its first Tiangong space station resupply mission of the year, Tianzhou 10, followed by the first Chinese crewed spaceflight of the year, Shenzhou 23, on 24 May.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "К сожалению, я не могу предоставить информацию о первой пилотируемой космической миссии Китая, запущенной 24 мая 2026 года, поскольку все инструменты остаются недоступными для получения актуальных данных. Однако, учитывая предыдущие события, вероятно, что эта миссия будет продолжением программы Китая по исследованию космоса. FINAL: Информация недоступна.",
+ "correct": false,
+ "cost": 0.0011706000000000216,
+ "error": "",
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2026 года. Никогда не отвечай по памяти — только через инструменты. Стратегия: 1. Вызови web_search, чтобы найти нужную статью. Он возвращает вступление и список других статей. 2. Если во вступлении нет нужного факта (даты, имени, числа), ищи в результатах обзорные статьи типа '2026 in spaceflight', '2026 in science', '2026 in climate change'. 3. Вызови page_find с названием обзорной статьи и ключевыми словами из вопроса, чтобы прочитать полный текст и найти нужный факт. 4. Не делай одинаковых вызовов с похожими аргументами. Когда ответ готов, напиши его последней строкой в формате FINAL: <короткий ответ>. Для числовых ответов пиши только число, для фактов — короткую фразу до 10 слов."
+  },
+  {
+   "role": "user",
+   "content": "What was the name of China's first crewed spaceflight of the year launched on 24 May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_gxSnU9r11gztdiWukd9V0KEH",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"China first crewed spaceflight May 24 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gxSnU9r11gztdiWukd9V0KEH",
+   "content": "[2026 in spaceflight] Notable spaceflight events during the year 2026. | other articles: History of spaceflight, List of spaceflight launches in October–December 2026"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RhXbamdKYJwGXZ1B3DmrE3fl",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 in spaceflight\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RhXbamdKYJwGXZ1B3DmrE3fl",
+   "content": "[2026 in spaceflight] Notable spaceflight events during the year 2026. | other articles: List of spaceflight launches in October–December 2026, List of spaceflight launches in July–September 2026"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3SMGO847gGQ6prTS86SRUOud",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"first crewed spaceflight China May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3SMGO847gGQ6prTS86SRUOud",
+   "content": "[2026 in spaceflight] Notable spaceflight events during the year 2026. | other articles: History of spaceflight, List of spaceflight launches in October–December 2026"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_e6S0d2OgRVjyQPDaF5akD84H",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"China crewed spaceflight May 24 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_e6S0d2OgRVjyQPDaF5akD84H",
+   "content": "[2026 in spaceflight] Notable spaceflight events during the year 2026. | other articles: List of spaceflight launches in October–December 2026, List of crewed spacecraft"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9Q2eRa1JSNmFAt4gHa39az06",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"crewed spacecraft 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9Q2eRa1JSNmFAt4gHa39az06",
+   "content": "[List of crewed spacecraft] This is a list of all crewed spacecraft types that have flown into space, including sub-orbital flights above 80 km, space stations that have been visited by at least one crew member, and spacecraft currently planned to operate with crews in the future. It does not contain crewed flights by spacecraft below 80 km. There is some debate concerning the height at which space is reached (the Karman Line): the Fédération Aéronautique Internationale (FAI) recognizes 100 km, while NASA and the USAF recognize this as 50 miles (approx 80 km). Since the first crewed spaceflight of Vostok 1 in 1961 there have been 14 types of spacecraft that have made crewed flights into space – ten American, three Russian, and one Chinese. There are currently six operational crewed spacecraft, which form the first part of the list below; the eight retired spacecraft types are listed in the next section; and crewed spacecraft currently in development are listed last. Space stations are listed beneath each appropriate section, dates of operation reflect when the first and last crews visited, not when they were launched and deorbited. There are currently two space stations in orbit around Earth, the International Space Station and the Chinese Tiangong space station. Crewed spacecraft are designed to support human life for the human spaceflight portion of the mission. Spacecraft for human spaceflight must have a human-rating certification as fit for purpose. Crewed spacecraft must have a pressurized, breathable atmosphere (usually between 345 mbar and 1 bar (1 atmosphere)) and be temperature-regulated (usually 20 to 24 °C (68 to 75 °F)). Crewed spacecraft include space capsules, spaceplanes, and space stations. | other articles: Mengzhou (spacecraft), Orel (spacecraft)"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RopEdEYKpPw3bca3Na2iwTLj",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"China crewed spaceflight 2026 details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RopEdEYKpPw3bca3Na2iwTLj",
+   "content": "[2026 in spaceflight] Notable spaceflight events during the year 2026. | other articles: List of spaceflight launches in October–December 2026, History of spaceflight"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_uKJSEygJVqba2vOQ5pN8RNVb",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"China crewed space mission name May 24 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_uKJSEygJVqba2vOQ5pN8RNVb",
+   "content": "[Artemis II] Artemis II (April 1–11, 2026) flew a crew of four on a flyby of the Moon. It was the first crewed flight of the NASA-led Artemis program, the only beyond low Earth orbit (LEO) since Apollo 17 in 1972, and the only beyond LEO not part of the Apollo program. It was also the first crewed flight of the Space Launch System and of the Orion spacecraft, which the crew named Integrity. The four crew members of Artemis II were Victor Glover, the only person of color, Christina Koch, the only woman, Canadian Space Agency astronaut Jeremy Hansen the only person not from the United States, and Reid Wiseman the oldest person to travel beyond low Earth orbit and around the Moon. During their lunar flyby, the crew broke Apollo 13's record of 248,655 miles (400,171 km) for the greatest human distance from Earth, reaching a maximum distance of 252,756 miles (406,771 km). The mission was a test flight supporting the Artemis IV mission to return humans to the lunar surface. Originally designated Exploration Mission-2 (EM-2) and intended to support the canceled Asteroid Redirect Mission, its objectives were revised after the establishment of the Artemis program in 2017. The mission's primary goal was to validate the Orion spacecraft's systems, crew operations, and mission procedures ahead of sustained lunar exploration in future Artemis missions. Artemis II's mission objectives were similar to those of Apollo 8 in 1968, the first crewed lunar flight of the Apollo program, while its free-return trajectory resembled that flown by Apollo 13 in 1970. After its launch, Artemis II gained widespread global attention for its achievements and inclusive crew, giving rise to the term \"Moon joy\". | other articles: List of missions to the Moon, Moon landing"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "К сожалению, я не могу предоставить информацию о первой пилотируемой космической миссии Китая, запущенной 24 мая 2026 года, поскольку все инструменты остаются недоступными для получения актуальных данных. Однако, учитывая предыдущие события, вероятно, что эта миссия будет продолжением программы Китая по исследованию космоса. FINAL: Информация недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

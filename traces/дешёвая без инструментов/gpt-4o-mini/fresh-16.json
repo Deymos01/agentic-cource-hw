@@ -1,0 +1,33 @@
+{
+ "task": {
+  "id": "fresh-16",
+  "source": "fresh",
+  "question": "What is the orbital period of S301 around Sagittarius A*?",
+  "answer": "8.7 years",
+  "evidence": "19 August – Astronomers report the discovery of S301, the closest and fastest star yet observed orbiting Sagittarius A*, the supermassive black hole at the centre of the Milky Way. The star completes an orbit every 8.7 years and reaches about 25,000 km/s, or 8.5% of the speed of light, at its closest approach. Its unusually tight orbit may enable a direct measurement of Sagittarius A*'s spin within about a decade.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I will search for information regarding the orbital period of S301 around Sagittarius A*. Please hold on. \n\nweb_search(\"S301 orbital period Sagittarius A* 2026\")",
+ "correct": false,
+ "cost": 5.505000000000093e-05,
+ "error": "",
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты отвечаешь на вопросы о событиях 2026 года. Никогда не отвечай по памяти — только через инструменты. Стратегия: 1. Вызови web_search, чтобы найти нужную статью. Он возвращает вступление и список других статей. 2. Если во вступлении нет нужного факта (даты, имени, числа), ищи в результатах обзорные статьи типа '2026 in spaceflight', '2026 in science', '2026 in climate change'. 3. Вызови page_find с названием обзорной статьи и ключевыми словами из вопроса, чтобы прочитать полный текст и найти нужный факт. 4. Не делай одинаковых вызовов с похожими аргументами. Когда ответ готов, напиши его последней строкой в формате FINAL: <короткий ответ>. Для числовых ответов пиши только число, для фактов — короткую фразу до 10 слов."
+  },
+  {
+   "role": "user",
+   "content": "What is the orbital period of S301 around Sagittarius A*?"
+  },
+  {
+   "role": "assistant",
+   "content": "I will search for information regarding the orbital period of S301 around Sagittarius A*. Please hold on. \n\nweb_search(\"S301 orbital period Sagittarius A* 2026\")",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
